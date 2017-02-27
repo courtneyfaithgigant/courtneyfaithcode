@@ -1,4 +1,4 @@
 .DS_Store
 upload-old.sh
-design/*
-output/*
+# design/*
+# output/*
