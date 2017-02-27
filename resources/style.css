@@ -1,0 +1,272 @@
+
+/**
+ *  My Homegirl INDEX!!!
+ */
+
+/* Index - Intro Text */
+.page-index {
+    background: url(openroad.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 60rem;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;}
+.page-index h1.title {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Poppins';
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    padding: 10rem 15rem 5rem;}
+.page-index .subtitle {
+    display: flex;
+    font-family: 'Scheherazade';
+    font-size: 20px;
+    background-color: rgba(255, 255, 255, .2);
+    color: #222;
+    text-align: center;
+    padding: 35px 50px;
+    margin: 3rem 44rem;}
+
+/* Index - Category Images */
+.page-index .container2 {
+    font-family: 'Poppins';
+    font-size: 1.5rem;
+    margin-top: 3rem;
+    text-align: center;}
+.page-index .container2 .content-sections a {
+    color: white;
+    border: solid white 1px;
+    padding: 1rem 2rem;
+    display: inline-flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0px 10px;}
+
+/* Index - Social Media */
+.page-index .container3 {
+    margin: 0;
+    width: 100%;
+    padding-top: 8rem;
+    padding-bottom: 2rem;}
+.page-index .social-media {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;}
+.page-index .social-media img {
+    height: 60px;
+    width: 60px;
+    padding: 10px;}
+
+
+/**
+ * Page - About Moi!!!
+ */
+
+.page-about .title-section {
+    font-family: 'Arapey';
+    background: url(kayak.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 220px;
+    margin-top: -1px;}
+.page-about .title-section .title {
+    font-family: 'Poppins';
+    font-size: 100px;
+    margin-top: 20px;}
+.page-about .title-section .subtitle {
+    font-family: 'Poppins';
+    font-size: 15px;
+    border: solid 1px;
+    padding: 10px 15px;}
+
+/* About Me - Photo & Social Media Buttons */
+.page-about .container2 {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    margin-top: 50px;}
+.page-about .container2 .headshot-icons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 50px;}
+.page-about .container2 img.headshot {
+    margin-top: 0px;
+    border-radius: 2%;
+    height: 30rem;
+    margin-bottom: 10px;}
+.page-about .container2 .social-media img {
+    height: 40px;
+    margin-bottom: 10px;}
+
+/* About Me - Content Bio */
+.page-about .container2 .aboutme {
+    font-family: 'Scheherazade';
+    width: 500px;}
+.page-about .container2 .aboutme .aboutme-subsections {
+    text-decoration: underline;
+    font-family: 'Poppins';}
+.page-about .container2 .aboutme .aboutme-intro {
+    font-weight: bold;
+    font-size: 30px;
+    font-family: 'Poppins';}
+
+
+/**
+ * Page-BLOG!!!
+ */
+
+.page-blog .container h1.title {
+    font-family: 'Poppins';
+    font-size: 10rem;
+    text-align: center;}
+.page-blog .container .subtitle {
+    font-size: 3rem;}
+.page-blog .posts-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    margin: 50px auto;
+    text-align: center;}
+.page-blog .posts-container .post {
+    width: 200px;
+    height: 200px;
+    padding-top: 20px;}
+
+
+/**
+ * ALL DA BLOG POSTS
+ */
+
+.page-post-7-considerations-before-changing-your-life .header {
+   background: url(peonies1.jpg);}
+.page-post-how-to-handle-your-brain-possibly-exploding .header {
+    background: url(space1.jpg);}
+.page-post-my-story-on-eating-disorder-recovery .header {
+    background: url(lotuss.jpg);}
+
+.page-post .header {
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 40px 0px;}
+.page-post .header .headertext {
+    background: rgba(255, 255, 255, .4);
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;}
+.page-post .header h1.title {
+    font-family: 'Poppins';
+    font-size: 100px;
+    padding-bottom: 20px;}
+.page-post .header .subtitle {
+    display: inline-flex;
+    justify-content: center;
+    font-size: 15px;
+    font-family: 'Poppins';
+    color: black;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: black solid 1px;
+    margin: 0 auto;}
+.page-post .header .subtitle .date {
+    padding-right: 40px;}
+
+.page-post .post-content {
+    padding: 8rem 30rem 0px;
+    font-family: 'Poppins';
+    font-size: 1.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 0 auto;}
+
+.page-post .footer {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    font-family: 'Poppins';
+    font-size: 16px;
+    width: 100%;
+    height: 200px;
+    margin: 0 auto;
+    padding: 60px 420px 0px 150px;}
+.page-post .footer .signature {
+    padding-left: 48px;}
+
+
+/**
+ * Contact Meeeeow!!
+ */
+
+.page-contact .contactform {
+    display: flex;
+    justify-content: center;
+    padding: 100 400 0px 0px;}
+
+
+/**
+ * ALL DA PAGES
+ */
+
+
+/* Navagation Bar */
+.header-bar .giraffe-icon {
+    height:25px;
+    padding-right:5px;}
+.container {
+    margin:0;
+    width: 100%;
+    padding: 0;}
+.header-bar {
+    font-family: 'Poppins';
+    margin: 0px 0px;
+    border: black solid 7px;
+    border-right: none;
+    border-left: none;
+    background-color: black;
+    padding-top: 5px;}
+.header-bar h3 {
+    font-size: 20px;
+    color: white;
+    font-family: 'Poppins';
+    display: inline-block;
+    float: left;
+    margin-left: 50px;
+    margin-top: 0px;
+    margin-bottom: 0px;}
+.header-bar li {
+    display: inline-block;
+    text-align: center;}
+.header-bar a {
+    text-decoration: none;
+    width: 100%;
+    color: white;
+    position: bottom;
+    padding: 2px 10px;}
+.header-bar a:hover {
+    background-color: rgba(255, 255, 255, .2);}
+.header-bar a:active {
+    border: 1px solid white;}
+.header-bar h3 a:hover {
+    background-color: transparent;}
+
+/* Intro Text */
+.section1img {
+    width: 100%;}
+h1.title {
+    display: inline-block;
+    font-family: 'Arapey';
+    font-weight: bolder;
+    font-size: 160px;
+    color: black;
+    margin-top: 50px;
+    margin-bottom: 0;}
+
+
+

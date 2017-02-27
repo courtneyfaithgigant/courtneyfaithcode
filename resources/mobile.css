@@ -1,0 +1,44 @@
+
+@media
+	screen and (max-width: 750px),
+	screen and (max-device-width: 750px),
+	screen and (min-device-pixel-ratio: 2) and (min-resolution: 192dpi) {
+
+/*Page: Index */
+.page-index h1.title {
+	margin: 0 auto;
+    padding: 11rem 3rem 1rem;}
+.page-index .subtitle {
+	padding: 3rem;
+    margin: 3rem;}
+.page-index .container3 {
+	padding-top: 5rem;}
+
+/* Page: Blog */
+.page-blog .container .row h1.title {}
+.page-blog h1.title .subtitle {	
+	margin-top: 0px;}
+.page-blog .posts-container {
+	padding: 0px;}
+
+/* Page: Posts */
+.page-post .post-content {
+	padding: 40px 40px 0px;
+	font-size: 1.5rem;}
+.page-post .header h1.title {
+	font-size: 5rem;
+	margin: auto 0;
+	padding-top: 15px;}
+.page-post .footer {
+	padding: 3rem;}
+
+/* Page: About */
+.page-about .container2 .headshot-icons {
+	margin-right: 0px;}
+.page-about .container2 {
+    padding: 4rem;}
+.page-about .container2 .aboutme {
+	font-size: 2rem;}
+
+
+}

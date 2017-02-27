@@ -1,0 +1,54 @@
+/**
+ * MOBILE FRIENDLY BISHES *woof*
+ */
+@media screen and (max-device-width: 480px) {
+
+/* HOME PAGE - WOOO!! */
+
+.page-index {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;}
+.page-index .title-section {
+    flex-direction: column;
+    width: 100%;}
+.page-index img.giraffe {
+    text-align: center;   
+    width: 0 auto;
+    padding-left: 220px;
+    padding-top: 90px;}
+.page-index h1.title {
+    text-align: center;
+    margin: 15px 0px;
+    padding-right: 0px;
+    font-size: 30px;
+    margin: ;}
+.page-index h1.title .subtitle {
+    font-weight: normal;}
+.page-index .start-here {
+    margin-top: 20px;}
+.page-index .container2 {
+    margin-top: 50px;}
+
+
+ A BLOG POST - YEAH! 
+
+.page-post .post-content {
+    width: 600px;}
+.page-post .header h1.title {
+    font-size: 70px;}
+.page-post .header .subtitle {
+    font-size: 16px;
+    width: 100%;
+    border-right: none;
+    border-left: none;}
+.page-post .footer {
+    padding: 60px 80px 0px 150px;}
+}
+
+
+
+
+
+
