@@ -38,7 +38,9 @@
 .page-about .container2 {
     padding: 4rem;}
 .page-about .container2 .aboutme {
-	font-size: 2rem;}
-
+	font-size: 1.4rem;
+	text-align: center;}
+.page-about .container2 .aboutme .aboutme-intro {
+	padding-top: 2rem;}
 
 }
