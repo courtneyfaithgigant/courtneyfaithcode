@@ -79,7 +79,7 @@
 .page-about .title-section .subtitle {
     font-family: 'Poppins';
     font-size: 1.4rem;
-    border: solid 1px;
+    background-color: rgba(255, 255, 255, .2);
     padding: 10px 15px;}
 
 /* About Me - Photo & Social Media Buttons */
@@ -124,9 +124,12 @@
 .page-blog .container h1.title {
     font-family: 'Poppins';
     font-size: 10rem;
+    margin-top: 20px;
     text-align: center;}
 .page-blog .container .subtitle {
-    font-size: 3rem;}
+    font-size: 1.4rem;
+    border: solid black 1px;
+    padding: 10px 15px;}
 .page-blog .posts-container {
     display: flex;
     flex-wrap: wrap;
