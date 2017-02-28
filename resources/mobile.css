@@ -1,7 +1,7 @@
 
 @media
-	screen and (max-width: 750px),
-	screen and (max-device-width: 750px),
+	screen and (max-width: 900px),
+	screen and (max-device-width: 900px),
 	screen and (min-device-pixel-ratio: 2) and (min-resolution: 192dpi) {
 
 /*Page: Index */
@@ -15,7 +15,6 @@
 	padding-top: 5rem;}
 
 /* Page: Blog */
-.page-blog .container .row h1.title {}
 .page-blog h1.title .subtitle {	
 	margin-top: 0px;}
 .page-blog .posts-container {
@@ -33,7 +32,7 @@
 	padding: 3rem;}
 
 /* Page: About */
-.page-about .title-section h1.title {
+.page-about .title-section .title h1.title {
 	color: white;}
 .page-about .container2 .headshot-icons {
 	margin-right: 0px;}
@@ -46,3 +45,27 @@
 	padding-top: 2rem;}
 
 }
+
+
+@media
+	screen and (min-width: 900px) and (max-width: 1400px),
+	screen and (min-device-width: 900px) and (max-device-width: 1400px),
+	screen and (min-device-pixel-ratio: 2) and (min-resolution: 192dpi) {
+
+/*Page: Index */
+.page-index h1.title {
+	margin: 0 auto;
+    padding: 11rem 3rem 1rem;}
+.page-index .subtitle {
+	padding: 4rem;
+    margin: 3rem 20rem;}
+.page-index .container3 {
+	padding-top: 5rem;}
+
+}
+
+
+
+
+
+
