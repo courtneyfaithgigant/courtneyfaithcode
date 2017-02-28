@@ -121,6 +121,11 @@
  * Page-BLOG!!!
  */
 
+.page-blog .title-section {
+    background: url(cliff.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 220px;}
 .page-blog .container h1.title {
     font-family: 'Poppins';
     font-size: 10rem;
@@ -129,6 +134,7 @@
 .page-blog .container .subtitle {
     font-size: 1.4rem;
     border: solid black 1px;
+    background-color: rgba(255, 255, 255, .3);
     padding: 10px 15px;}
 .page-blog .posts-container {
     display: flex;
