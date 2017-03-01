@@ -212,7 +212,21 @@
 /**
  * Contact Meeeeow!!
  */
-
+.page-contact .title-section {
+    background: url(pine-tree.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 220px;
+    margin-top: -1px;}
+.page-contact .title-section .title {
+    font-family: 'Poppins';
+    font-size: 10rem;
+    margin-top: 20px;}
+.page-contact .title-section .subtitle {
+    font-family: 'Poppins';
+    font-size: 1.4rem;
+    background-color: rgba(255, 255, 255, .3);
+    padding: 10px 15px;}
 .page-contact .contactform {
     display: flex;
     justify-content: center;
@@ -270,7 +284,6 @@
     width: 100%;}
 h1.title {
     display: inline-block;
-    font-family: 'Arapey';
     font-weight: bolder;
     font-size: 160px;
     color: black;
