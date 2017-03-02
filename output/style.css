@@ -20,21 +20,21 @@
     color: white;
     text-align: center;
     padding: 10rem 15rem 5rem;}
-.page-index .subtitle {
+.page-index h1.title .subtitle {
     display: flex;
     font-family: 'Scheherazade';
     font-size: 20px;
     background-color: rgba(255, 255, 255, .2);
     color: #222;
     text-align: center;
-    padding: 35px 50px;
-    margin: 3rem 44rem;}
+    padding: 3rem 5rem;
+    margin: 3rem 43rem;}
 
 /* Index - Category Images */
 .page-index .container2 {
     font-family: 'Poppins';
     font-size: 1.5rem;
-    margin-top: 3rem;
+    padding-top: 23rem;
     text-align: center;}
 .page-index .container2 .content-sections a {
     color: white;
@@ -66,21 +66,9 @@
  */
 
 .page-about .title-section {
-    font-family: 'Arapey';
     background: url(kayak.jpg);
-    background-repeat: no-repeat;
     background-size: cover;
-    height: 220px;
-    margin-top: -1px;}
-.page-about .title-section .title {
-    font-family: 'Poppins';
-    font-size: 10rem;
-    margin-top: 20px;}
-.page-about .title-section .subtitle {
-    font-family: 'Poppins';
-    font-size: 1.4rem;
-    background-color: rgba(255, 255, 255, .3);
-    padding: 10px 15px;}
+    background-repeat: no-repeat;}
 
 /* About Me - Photo & Social Media Buttons */
 .page-about .container2 {
@@ -124,17 +112,7 @@
 .page-blog .title-section {
     background: url(cliff.jpg);
     background-size: cover;
-    background-repeat: no-repeat;
-    height: 220px;}
-.page-blog .container h1.title {
-    font-family: 'Poppins';
-    font-size: 10rem;
-    margin-top: 20px;
-    text-align: center;}
-.page-blog .container .subtitle {
-    font-size: 1.4rem;
-    background-color: rgba(255, 255, 255, .3);
-    padding: 10px 15px;}
+    background-repeat: no-repeat;}
 .page-blog .posts-container {
     display: flex;
     flex-wrap: wrap;
@@ -213,24 +191,15 @@
  * Contact Meeeeow!!
  */
 .page-contact .title-section {
-    background: url(pine-tree.jpg);
+    background: url(cliff1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 220px;
     margin-top: -1px;}
-.page-contact .title-section .title {
-    font-family: 'Poppins';
-    font-size: 10rem;
-    margin-top: 20px;}
-.page-contact .title-section .subtitle {
-    font-family: 'Poppins';
-    font-size: 1.4rem;
-    background-color: rgba(255, 255, 255, .3);
-    padding: 10px 15px;}
 .page-contact .contactform {
     display: flex;
     justify-content: center;
-    padding: 100 400 0px 0px;}
+    padding: 3rem 0rem 0rem 30rem;}
 
 
 /**
@@ -280,12 +249,27 @@
     background-color: transparent;}
 
 /* Intro Text */
+
 .section1img {
     width: 100%;}
+.title-section {
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 220px;
+    margin-top: -1px;}
+.title-section .title {
+    font-family: 'Poppins';
+    font-size: 10rem;
+    margin-top: 20px;}
+.title-section .subtitle {
+    font-family: 'Poppins';
+    font-size: 1.4rem;
+    background-color: rgba(255, 255, 255, .4);
+    padding: 10px 15px;}
 h1.title {
     display: inline-block;
     font-weight: bolder;
-    font-size: 160px;
+   /* font-size: 160px;*/
     color: black;
     margin-top: 50px;
     margin-bottom: 0;}
