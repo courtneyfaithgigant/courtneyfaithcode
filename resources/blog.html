@@ -1,0 +1,56 @@
+<!doctype html>
+
+    <head>
+        <title>Courtney Faith: Blog</title>
+        <link href="https://fonts.googleapis.com/css?family=Arapey|Didact+Gothic|Fira+Sans:300i|Rubik|Questrial|Satisfy|Special+Elite|Poppins|Montserrat|" rel="stylesheet" />
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet"/>
+        <link rel="shortcut icon" href="favicon.png" type="image/png" />
+        <link href="mobile.css" rel="stylesheet" type="text/css" />
+        <link href="style.css" rel="stylesheet" type="text/css" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+    </head>
+
+    <body class="page-blog">
+        <div class="container">
+            <ul class="row header-bar">
+                <li class="col-md-7">
+                    <h3><a href="index.html" class="logo-text">
+                    <img class="giraffe-icon" src="giraffe-white.png" alt="courtney faith" href="index.html"/>Courtney Faith</a>
+                    </h3>
+                </li>
+                <li class="col-md-1"><a href="index.html">Home</a></li>
+                <li class="col-md-1"><a href="about.html">About</a></li>
+                <li class="col-md-1"><a href="blog.html">Blog</a></li>
+                <li class="col-md-1"><a href="contact.html">Connect</a></li>
+                <li class="col-md-1"></li>
+            </ul>
+
+            <div class="title-section" style="text-align: center;">
+                <h1 class="title">BLOG</br>
+                    <div class="subtitle">For When Another Baby Step Is Made</div>
+                </h1>
+            </div>
+        </div>
+
+        <div class="posts-container">
+        {{ range .Posts }}
+            <div class="post" style="background: url({{ .ListImage }})">
+                <span class="date">{{ .Date }}</span><br />
+                <a class="title" href="posts/{{ .Filename }}">{{ .Title }}</a>
+            </div>
+        {{ end }}
+        </div>
+
+    </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
