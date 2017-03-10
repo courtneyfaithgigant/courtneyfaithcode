@@ -89,12 +89,12 @@
 
 
 @media
-	screen and (min-width: 100px) and (max-width: 1400px),
-	screen and (min-device-width: 1200px) and (max-device-width: 1400px),
+	screen and (min-width: 1200px) and (max-width: 800px),
+	screen and (min-device-width: 1200px) and (max-device-width: 800px),
 	screen and (min-device-pixel-ratio: 2) and (min-resolution: 192dpi) {
 
 /*Page: Index */
-/*.page-index .title-section h1.title {
+.page-index .title-section h1.title {
 	margin: 0 auto;
 	font-size: 4rem;
 	text-align: left;
@@ -103,7 +103,7 @@
 	padding: 4rem;
     margin: 3rem 20rem;}
 .page-index .container3 {
-	padding-top: 5rem;}*/
+	padding-top: 5rem;}
 
 /*Page: Blog */
 .page-blog .posts-container .post {
