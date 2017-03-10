@@ -44,8 +44,10 @@
         <div class="posts-container">
         {{ range .Posts }}
             <div class="post" style="background: url({{ .ListImage }}); background-size: cover;" />
-                <span class="date" style="font-size: 2rem;">{{ .Date }}</span><br />
-                <a class="title" href="posts/{{ .Filename }}" style="font-size: 3rem; text-align: center; padding: 0rem 1.5rem;">{{ .Title }}</a>
+                <span class="date" style="font-size: 1.5rem; color: #777">{{ .Date }}</span>
+                <br/>
+                <br/>
+                <a class="title" href="posts/{{ .Filename }}" style="font-size: 3rem; text-align: center; padding: 0rem 1.5rem; color: #333; font-family: 'Satisfy'; padding-top: 1rem;">{{ .Title }}</a>
             </div>
         {{ end }}
         </div>

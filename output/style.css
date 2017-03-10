@@ -121,10 +121,9 @@
     text-align: center;}
 .page-blog .posts-container .post {
     font-weight: bold;
-    width: 20rem;
-    height: 20rem;
-    padding-top: 4rem;
-    background-size: cover;}
+    width: 30rem;
+    height: 30rem;
+    padding-top: 4rem;}
 
 
 /**
@@ -132,7 +131,7 @@
  */
 
 .page-post-7-considerations-before-changing-your-life .header {
-   background: url(peonies1.jpg);}
+   background: url(purpleocean.jpg);}
 .page-post-how-to-handle-your-brain-possibly-exploding .header {
     background: url(space1.jpg);}
 .page-post-my-path-to-eating-disorder-recovery .header {
