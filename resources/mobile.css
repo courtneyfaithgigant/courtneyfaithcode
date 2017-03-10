@@ -25,15 +25,18 @@
 	padding: 1rem 10rem;}
 
 /* Page: Blog */
+.page-blog .title-section h1.title {
+	font-size: 13rem;
+	margin-top: 17rem;}
 .page-blog .posts-container {
 	padding: 0rem;}
 .page-blog .posts-container .post {
-    width: 40rem;
-    height: 20rem;}
+    width: 30rem;
+    height: 30rem;}
 
 /* Page: Posts */
 .page-post .header h1.title {
-	font-size: 5rem;
+	font-size: 4.5rem;
 	margin: auto 0;
 	padding: 13rem 1.5rem 6rem;}
 .page-post .header .headertext {
@@ -45,6 +48,9 @@
 	padding: 3rem;}
 
 /* Page: About */
+.page-about .title-section h1.title {
+	font-size: 13rem;
+	margin-top: 16rem;}
 .page-about .container2 .headshot-icons {
 	margin-right: 0px;}
 .page-about .container2 {
@@ -56,6 +62,9 @@
 	padding-top: 2rem;}
 
 /* Page: Connect */
+.page-contact .title-section h1.title {
+	font-size: 6rem;
+	margin-top: 25rem;}
 .page-contact h1.title .subtitle {	
 	margin-top: 0px;
 	font-size: 1.4rem;
@@ -67,8 +76,6 @@
 /* ALL PAGES */
 .title-section {
 	height: 40rem;}
-.title-section h1.title {
-	font-size: 8rem;}
 
 #navbar-button {
     display: block;
@@ -89,21 +96,27 @@
 
 
 @media
-	screen and (min-width: 1200px) and (max-width: 800px),
-	screen and (min-device-width: 1200px) and (max-device-width: 800px),
+	screen and (min-width: 801px) and (max-width: 1200px),
+	screen and (min-device-width: 801px) and (max-device-width: 1200px),
 	screen and (min-device-pixel-ratio: 2) and (min-resolution: 192dpi) {
 
 /*Page: Index */
 .page-index .title-section h1.title {
 	margin: 0 auto;
 	font-size: 4rem;
-	text-align: left;
+	text-align: center;
     padding: 11rem 3rem 1rem;}
-.page-index .subtitle {
-	padding: 4rem;
+.page-index h1.title .subtitle {
+	padding: 2rem;
     margin: 3rem 20rem;}
+.page-index .container2 {
+	padding: 0;
+	text-align: center;}
 .page-index .container3 {
-	padding-top: 5rem;}
+	padding: 3rem 0rem;}
+.page-index .social-media {
+	justify-content: center;}
+
 
 /*Page: Blog */
 .page-blog .posts-container .post {
