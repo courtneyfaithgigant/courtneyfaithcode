@@ -3,27 +3,36 @@
     <head>
         <title>Courtney Faith: Blog</title>
         <link href="https://fonts.googleapis.com/css?family=Arapey|Didact+Gothic|Fira+Sans:300i|Rubik|Questrial|Satisfy|Special+Elite|Poppins|Montserrat|" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+        rel="stylesheet"/>
         <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet"/>
         <link rel="shortcut icon" href="favicon.png" type="image/png" />
-        <link href="mobile.css" rel="stylesheet" type="text/css" />
         <link href="style.css" rel="stylesheet" type="text/css" />
+        <link href="mobile.css" rel="stylesheet" type="text/css" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
     </head>
 
     <body class="page-blog">
-        <div class="container">
-            <ul class="row header-bar">
-                <li class="col-md-7">
-                    <h3><a href="index.html" class="logo-text">
-                    <img class="giraffe-icon" src="giraffe-white.png" alt="courtney faith" href="index.html"/>Courtney Faith</a>
-                    </h3>
-                </li>
-                <li class="col-md-1"><a href="index.html">Home</a></li>
-                <li class="col-md-1"><a href="about.html">About</a></li>
-                <li class="col-md-1"><a href="blog.html">Blog</a></li>
-                <li class="col-md-1"><a href="contact.html">Connect</a></li>
-                <li class="col-md-1"></li>
-            </ul>
+        <div class="container1">
+    
+            <div class="navbar navbar-inverse navbar-fixed-top">
+                <div class="container">
+
+                    <a href="index.html" class="logo-text">
+                        <img class="giraffe-icon" src="giraffe-white.png" alt="courtney faith" href="index.html"/>Courtney Faith</a>
+                    
+                    <i id="navbar-button" class="material-icons">menu</i>
+
+                    <div id="nav-wrapper" class="nav-wrapper">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="about.html">Who I Am</a></li>
+                            <li><a href="blog.html">Sweet Lovin' Blog</a></li>
+                            <li><a href="contact.html">Connect With Me</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
 
             <div class="title-section" style="text-align: center;">
                 <h1 class="title">BLOG</br>
@@ -34,12 +43,28 @@
 
         <div class="posts-container">
         {{ range .Posts }}
-            <div class="post" style="background: url({{ .ListImage }})">
-                <span class="date">{{ .Date }}</span><br />
-                <a class="title" href="posts/{{ .Filename }}">{{ .Title }}</a>
+            <div class="post" style="background: url({{ .ListImage }}); background-size: cover;" />
+                <span class="date" style="font-size: 2rem;">{{ .Date }}</span><br />
+                <a class="title" href="posts/{{ .Filename }}" style="font-size: 3rem; text-align: center; padding: 0rem 1.5rem;">{{ .Title }}</a>
             </div>
         {{ end }}
         </div>
+
+
+        <script>
+
+        var navbarButton = document.getElementById('navbar-button');
+        var navWrapper = document.getElementById('nav-wrapper');
+
+        navbarButton.addEventListener('click', function() {
+            if (navWrapper.classList.contains('show')) {
+                navWrapper.classList.remove('show');
+            } else {
+                navWrapper.classList.add('show');
+            }
+        });
+
+        </script>
 
     </body>
 </html>

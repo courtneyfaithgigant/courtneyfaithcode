@@ -26,20 +26,21 @@
 
 /* Page: Blog */
 .page-blog .posts-container {
-	padding: 0rem;
-	margin: 5rem;}
+	padding: 0rem;}
 .page-blog .posts-container .post {
-    width: 30rem;
-    height: 30rem;}
+    width: 40rem;
+    height: 20rem;}
 
 /* Page: Posts */
-.page-post .post-content {
-	padding: 40px 40px 0px;
-	font-size: 1.5rem;}
 .page-post .header h1.title {
 	font-size: 5rem;
 	margin: auto 0;
-	padding-top: 15px;}
+	padding: 13rem 1.5rem 6rem;}
+.page-post .header .headertext {
+	padding-bottom: 10rem;}
+.page-post .post-content {
+	padding: 40px 40px 0px;
+	font-size: 1.5rem;}
 .page-post .footer {
 	padding: 3rem;}
 
@@ -63,12 +64,38 @@
 .page-contact .contactform {
 	padding: 4rem 0rem 0rem 5rem;}
 
-
+/* ALL PAGES */
 .title-section {
 	height: 40rem;}
 .title-section h1.title {
 	font-size: 8rem;}
 
+.header-bar {
+	padding: 2rem 0rem 1rem 0rem;}
+.header-bar h3 {
+	margin: 0 auto;}
+.header-bar a {
+	padding: 0;
+}
+
+#navbar-button {
+    display: block;
+    margin-left: auto;
+    padding: 0rem 5rem;
+    font-size: 4rem;}
+
+.nav-wrapper {
+    display: none;
+    width: 100%;}
+
+.nav-
+
+.nav-wrapper.show {
+	text-align: center;}
+
+.container {
+	flex-wrap: wrap;
+	text-align: center;}
 
 }
 

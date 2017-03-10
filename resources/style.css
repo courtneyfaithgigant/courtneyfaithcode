@@ -121,9 +121,11 @@
     text-align: center;}
 .page-blog .posts-container .post {
     font-weight: bold;
+    
     width: 20rem;
     height: 20rem;
-    padding-top: 20px;}
+    padding-top: 20px;
+    background-size: cover;}
 
 
 /**
@@ -211,45 +213,30 @@
 
 
 /* Navagation Bar */
-.header-bar .giraffe-icon {
-    height:25px;
-    padding-right:5px;}
 .container {
     margin:0;
     width: 100%;
-    padding: 0;}
-.header-bar {
-    font-family: 'Poppins';
-    margin: 0px 0px;
-    border: black solid 7px;
-    border-right: none;
-    border-left: none;
-    background-color: black;
-    padding-top: 5px;}
-.header-bar h3 {
-    font-size: 20px;
+    display: flex;
+    padding: 1rem 0rem .7rem 0rem;}
+
+.container1 .giraffe-icon {
+    height: 4rem;
+    padding: 0rem .5rem 0rem 5rem;}
+.container1 a.logo-text {
+    font-family: 'Satisfy';
     color: white;
-    font-family: 'Poppins';
-    display: inline-block;
-    float: left;
-    margin-left: 50px;
-    margin-top: 0px;
-    margin-bottom: 0px;}
-.header-bar li {
-    display: inline-block;
-    text-align: center;}
-.header-bar a {
-    text-decoration: none;
-    width: 100%;
-    color: white;
-    position: bottom;
-    padding: 2px 10px;}
-.header-bar a:hover {
-    background-color: rgba(255, 255, 255, .2);}
-.header-bar a:active {
-    border: 1px solid white;}
-.header-bar h3 a:hover {
-    background-color: transparent;}
+    font-size: 2.5rem;
+    padding-top: .5rem;}
+
+
+#navbar-button {
+    display: none;}
+.nav-wrapper {
+    display: block;
+    margin-left: auto;
+    padding: 0rem 5rem;}
+.nav-wrapper.show {
+    display: block;}
 
 /* Intro Text */
 
