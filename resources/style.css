@@ -8,7 +8,6 @@
     background: url(cfwood4.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    height: 60rem;
     margin: 0 auto;
     display: flex;
     flex-direction: column;}
@@ -19,7 +18,8 @@
     font-family: 'Poppins';
     font-size: 5rem;
     color: white;
-    padding: 0rem 15rem 5rem;}
+    padding: 0rem 15rem 5rem;
+    margin-top: 13rem;}
 .page-index h1.title .subtitle {
     display: flex;
     font-family: 'Poppins';
@@ -28,7 +28,7 @@
     color: #393638;
     text-align: center;
     padding: 4rem 4rem;
-    margin: 3rem 0rem 0rem 68rem;}
+    margin: 5rem 0rem 0rem 68rem;}
 
 /* Index - Category Images */
 .page-index .container2 {
