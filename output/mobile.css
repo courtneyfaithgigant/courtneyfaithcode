@@ -6,23 +6,31 @@
 
 /*Page: Index */
 .page-index .title-section h1.title {
-	font-size: 5.5rem;
+	font-size: 6rem;
 	text-align: left;
 	margin: 0 auto;
-    padding: 3rem 3rem 1rem;}
-.page-index h1.title .subtitle {
-	font-size: 1.2rem;
+    padding: 6rem 3rem 1rem;}
+.page-index h1.title .subtitle1 {
+	font-size: 2rem;
 	padding: 2rem 1.5rem;
-    margin: 1rem 0rem;}
+    margin: auto;
+	margin-top: 1rem;}
+.page-index h1.title .subtitle2 {
+	font-size: 1.7rem;
+	padding: 2rem 1.5rem;
+    margin: auto;
+	margin-top: 1rem;}
 .page-index .container2 {
-	padding-top: 8rem;
-    margin: 0rem 5rem 0rem 0rem;
-	justify-content: center;}
+	padding: 15rem 0rem 2rem;
+    margin: 0;
+	text-align: center;}
 .page-index .container2 .content-sections a {
 	font-size: 1.2rem;
     padding: 1rem 2rem;}
 .page-index .container3 {
-	padding: 1rem 10rem;}
+	padding: 0;}
+.page-index .social-media {
+	justify-content: center;}
 
 /* Page: Blog */
 .page-blog .title-section h1.title {
@@ -106,8 +114,8 @@
 	font-size: 4rem;
 	text-align: center;
     padding: 11rem 3rem 1rem;}
-.page-index h1.title .subtitle {
-	padding: 2rem;
+.page-index .title-section h1.title .subtitle1 {
+	padding: 1rem;
     margin: 3rem 20rem;}
 .page-index .container2 {
 	padding: 0;
