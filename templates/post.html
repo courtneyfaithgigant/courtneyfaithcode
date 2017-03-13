@@ -87,31 +87,36 @@
             </div>
         </div>
 
-        <div class="post-content">{{ .Content }}</div>
-        
-        <div class="footer">
-            <div>From the Sun and Moon within,</div>
-            <div class="signature"><img src="../signature.png"/></div>
+        <div class="post-content">{{ .Content }}
+            <div class="sign-off">
+                <div>From the Sun and Moon within,</div>
+                <div class="signature"><img src="../signature.png"/></div>
+            </div>
         </div>
 
-        <div class="fb-share-button" data-href="http://courtneyfaith.com/posts/{{ .SafeTitle }}.html" data-layout="button_count" data-size="large" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fcourtneyfaith.com%2Fposts%2F{{ .SafeTitle }}&amp;src=sdkpreparse">Share</a></div>
-        <a class="twitter-share-button"
-          href="https://twitter.com/intent/tweet?text={{ .Title }}"
-          data-size="large">Tweet</a>
+        <div class="footer">
+        </br>
+            <div class="social">
+                <div class="text">IF ANY OF THIS ROCKED YOUR WORLD</BR>SPREAD THE GOOD WORD</div>
+                <div class="fb-share-button" data-href="http://courtneyfaith.com/posts/{{ .SafeTitle }}.html" data-layout="button_count" data-size="large" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fcourtneyfaith.com%2Fposts%2F{{ .SafeTitle }}&amp;src=sdkpreparse">Share</a></div>
+                <a class="twitter-share-button"
+                  href="https://twitter.com/intent/tweet?text={{ .Title }}"
+                  data-size="large">Tweet</a>
+            </div>
+            <div class="by">2017 Designed By: <a href="../index.html">Courtney Faith</a></div>
+        </div>
 
         <script>
+            var navbarButton = document.getElementById('navbar-button');
+            var navWrapper = document.getElementById('nav-wrapper');
 
-        var navbarButton = document.getElementById('navbar-button');
-        var navWrapper = document.getElementById('nav-wrapper');
-
-        navbarButton.addEventListener('click', function() {
-            if (navWrapper.classList.contains('show')) {
-                navWrapper.classList.remove('show');
-            } else {
-                navWrapper.classList.add('show');
-            }
-        });
-
+            navbarButton.addEventListener('click', function() {
+                if (navWrapper.classList.contains('show')) {
+                    navWrapper.classList.remove('show');
+                } else {
+                    navWrapper.classList.add('show');
+                }
+            });
         </script>
 
 

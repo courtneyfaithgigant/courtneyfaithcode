@@ -113,7 +113,7 @@
 	padding: 0;
 	text-align: center;}
 .page-index .container3 {
-	padding: 3rem 0rem;}
+	padding: 3rem 0rem 2rem;}
 .page-index .social-media {
 	justify-content: center;}
 
@@ -128,7 +128,7 @@
 .page-post .post-content {
 	padding: 5rem 8rem;
 	font-size: 1.7rem;}
-.page-post .footer {
+.page-post .sign-off {
 	padding: 3rem 3rem 0rem 0rem;}
 
 
