@@ -6,13 +6,13 @@
 
 /*Page: Index */
 .page-index .title-section h1.title {
-	font-size: 3.5rem;
+	font-size: 3rem;
 	text-align: center;
 	margin: 0 auto;
-	/*margin-top: 5rem;*/
+	margin-top: 1rem;
     padding: 3rem 3rem 1rem;}
 .page-index .title-section h1.title .hello {
-	font-size: 10rem;}
+	font-size: 11rem;}
 .page-index h1.title .subtitle1 {
 	font-size: 2rem;
 	padding: 2rem 1.5rem;
