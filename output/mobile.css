@@ -6,26 +6,29 @@
 
 /*Page: Index */
 .page-index .title-section h1.title {
-	font-size: 4rem;
-	text-align: left;
+	font-size: 3.5rem;
+	text-align: center;
 	margin: 0 auto;
+	margin-top: 5rem;
     padding: 3rem 3rem 1rem;}
+.page-index .title-section h1.title .hello {
+	font-size: 10rem;}
 .page-index h1.title .subtitle1 {
 	font-size: 2rem;
 	padding: 2rem 1.5rem;
     margin: auto;
-	margin-top: 1rem;}
+	margin-top: 2rem;}
 .page-index h1.title .subtitle2 {
 	font-size: 1.7rem;
 	padding: 2rem 1.5rem;
     margin: auto;
 	margin-top: 1rem;}
 .page-index .container2 {
-	padding: 15rem 0rem 2rem;
+	padding: 6rem 0rem 2rem;
     margin: 0;
 	text-align: center;}
 .page-index .container2 .content-sections a {
-	font-size: 1.2rem;
+	font-size: 1.5rem;
     padding: 1rem 2rem;}
 .page-index .container3 {
 	padding: 0;}
