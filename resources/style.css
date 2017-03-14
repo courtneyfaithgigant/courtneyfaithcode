@@ -59,7 +59,7 @@
 .page-index .container3 {
     margin: 0;
     width: 100%;
-    padding: 3rem 28.5rem 4rem 0rem;}
+    padding: 3rem 25rem 4rem 0rem;}
 .page-index .social-media {
     display: flex;
     flex-wrap: nowrap;
@@ -290,11 +290,6 @@
     font-family: 'Poppins';
     font-size: 20rem;
     margin-top: 17rem;}
-/*.title-section .subtitle {
-    font-family: 'Poppins';
-    font-size: 1.4rem;
-    background-color: rgba(255, 255, 255, .4);
-    padding: 10px 15px;}*/
 h1.title {
     display: inline-block;
     font-weight: bolder;
