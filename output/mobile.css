@@ -34,9 +34,6 @@
 	justify-content: center;}
 
 /* Page: Blog */
-.page-blog .title-section h1.title {
-	font-size: 13rem;
-	margin-top: 17rem;}
 .page-blog .posts-container {
 	padding: 0rem;}
 .page-blog .posts-container .post {
@@ -63,9 +60,6 @@
 	font-size: 1.5rem;}
 
 /* Page: About */
-.page-about .title-section h1.title {
-	font-size: 13rem;
-	margin-top: 17rem;}
 .page-about .container2 .headshot-icons {
 	margin-right: 0px;}
 .page-about .container2 {
@@ -77,9 +71,6 @@
 	padding-top: 2rem;}
 
 /* Page: Connect */
-.page-contact .title-section h1.title {
-	font-size: 13rem;
-	margin-top: 17rem;}
 .page-contact h1.title .subtitle {	
 	margin-top: 0px;
 	font-size: 1.4rem;
@@ -91,6 +82,11 @@
 /* ALL PAGES */
 .title-section {
 	height: 40rem;}
+.title-section h1.title {
+	font-weight: bold;
+	font-size: 12rem;
+	margin-top: 17rem;}
+
 
 #navbar-button {
     display: block;
