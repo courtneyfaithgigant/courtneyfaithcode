@@ -11,8 +11,6 @@
 	margin: 0 auto;
 	margin-top: 1rem;
     padding: 3rem 3rem 1rem;}
-.page-index .title-section h1.title .hello {
-	font-size: 11rem;}
 .page-index h1.title .subtitle1 {
 	font-size: 2rem;
 	padding: 2rem 1.5rem;
@@ -46,17 +44,22 @@
     height: 30rem;}
 
 /* Page: Posts */
+.page-post .header {
+	padding: 6rem 2rem 10rem;}
 .page-post .header h1.title {
 	font-size: 4.5rem;
 	margin: auto 0;
-	padding: 13rem 1.5rem 6rem;}
+	padding: 8rem 0rem 4rem;}
 .page-post .header .headertext {
-	padding-bottom: 10rem;}
+	padding-bottom: 7rem;}
 .page-post .post-content {
 	padding: 40px 40px 0px;
 	font-size: 1.7rem;}
-.page-post .footer {
+.page-post .sign-off {
 	padding: 3rem 3rem 0rem 0rem;}
+.page-post .footer .social {
+	margin: 3rem 3rem 4rem;
+}
 
 /* Page: About */
 .page-about .title-section h1.title {
@@ -114,12 +117,15 @@
 /*Page: Index */
 .page-index .title-section h1.title {
 	margin: 0 auto;
-	font-size: 4rem;
+	font-size: 6rem;
 	text-align: center;
     padding: 11rem 3rem 1rem;}
 .page-index .title-section h1.title .subtitle1 {
-	padding: 1rem;
-    margin: 3rem 20rem;}
+	padding: 2rem;
+    margin: 3rem 20rem 1rem;}
+.page-index .title-section h1.title .subtitle2 {
+	padding: 3rem;
+    margin: 0rem 20rem;}
 .page-index .container2 {
 	padding: 0;
 	text-align: center;}

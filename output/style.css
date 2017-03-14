@@ -18,7 +18,9 @@
     font-size: 5rem;
     color: white;
     padding: 0rem 15rem 5rem;
-    margin-top: 13rem;}
+    margin-top: 11rem;}
+.page-index .title-section h1.title .hello {
+    font-size: 11rem;}
 .page-index h1.title .subtitle1 {
     font-family: 'Poppins';
     font-size: 2rem;
@@ -40,7 +42,7 @@
 /* Index - Category Images */
 .page-index .container2 {
     font-family: 'Poppins';
-    padding-top: 5rem;
+    padding-top: 7rem;
     text-align: right;
     margin: 0rem 23rem;}
 .page-index .container2 .content-sections a {
