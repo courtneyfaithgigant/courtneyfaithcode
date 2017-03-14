@@ -61,8 +61,6 @@
 	margin: 3rem 3rem 4rem;}
 .page-post .footer .social .text {
 	font-size: 1.7rem;}
-.page-post .footer .social .text2 {
-	color: cornflowerblue;}
 
 /* Page: About */
 .page-about .title-section h1.title {
@@ -122,7 +120,7 @@
 	margin: 0 auto;
 	font-size: 6rem;
 	text-align: center;
-    padding: 11rem 3rem 1rem;}
+    padding: 8rem 3rem 1rem;}
 .page-index .title-section h1.title .subtitle1 {
 	padding: 2rem;
     margin: 3rem 20rem 1rem;}
@@ -130,7 +128,7 @@
 	padding: 3rem;
     margin: 0rem 20rem;}
 .page-index .container2 {
-	padding: 0;
+	padding-top: 0;
 	text-align: center;}
 .page-index .container3 {
 	padding: 3rem 0rem 2rem;}
