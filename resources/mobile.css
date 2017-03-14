@@ -60,12 +60,12 @@
 .page-post .footer .social {
 	margin: 3rem 3rem 4rem;}
 .page-post .footer .social .text {
-	font-size: 1.7rem;}
+	font-size: 1.5rem;}
 
 /* Page: About */
 .page-about .title-section h1.title {
 	font-size: 13rem;
-	margin-top: 16rem;}
+	margin-top: 17rem;}
 .page-about .container2 .headshot-icons {
 	margin-right: 0px;}
 .page-about .container2 {
@@ -78,15 +78,15 @@
 
 /* Page: Connect */
 .page-contact .title-section h1.title {
-	font-size: 6rem;
-	margin-top: 25rem;}
+	font-size: 13rem;
+	margin-top: 17rem;}
 .page-contact h1.title .subtitle {	
 	margin-top: 0px;
 	font-size: 1.4rem;
 	margin-right: 5rem;
 	margin-left: 5rem;}
 .page-contact .contactform {
-	padding: 4rem 0rem 0rem 5rem;}
+	padding: 3rem 0rem 0rem 3rem;}
 
 /* ALL PAGES */
 .title-section {

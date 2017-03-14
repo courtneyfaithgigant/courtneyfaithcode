@@ -75,9 +75,11 @@
  */
 
 .page-about .title-section {
-    background: url(ocean-wallpaper2.jpg);
+    background: url(Lotus-2.jpg);
     background-size: cover;
     background-repeat: no-repeat;}
+.page-about .title-section h1.title {
+    color: #939A1B;}
 
 /* About Me - Photo & Social Media Buttons */
 .page-about .container2 {
@@ -119,9 +121,11 @@
  */
 
 .page-blog .title-section {
-    background: url(cliff.jpg);
+    background: url(openroad.jpg);
     background-size: cover;
     background-repeat: no-repeat;}
+.page-blog .title-section h1.title {
+    color: yellow;}
 .page-blog .posts-container {
     display: flex;
     flex-wrap: wrap;
@@ -227,11 +231,12 @@
  * Contact Meeeeow!!
  */
 .page-contact .title-section {
-    background: url(woods-wallpaper.jpg);
+    background: url(large.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 50rem;
     margin-top: -1px;}
+.page-contact .title-section h1.title {
+    color: tomato;}
 .page-contact .title-section h1.title .subtitle {
     margin-right: 8rem;
     margin-left: 8rem;}
@@ -282,7 +287,6 @@
     height: 50rem;
     margin-top: -1px;}
 .title-section .title {
-    color: white;
     font-family: 'Poppins';
     font-size: 20rem;
     margin-top: 17rem;}
