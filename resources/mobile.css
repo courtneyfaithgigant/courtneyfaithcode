@@ -38,7 +38,8 @@
 	padding: 0rem;}
 .page-blog .posts-container .post {
     width: 30rem;
-    height: 30rem;}
+    height: 30rem;
+	padding: 8rem 3rem;}
 .page-blog .posts-container .post .title {
 	font-size: 2rem;}
 
