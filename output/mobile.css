@@ -39,6 +39,8 @@
 .page-blog .posts-container .post {
     width: 30rem;
     height: 30rem;}
+.page-blog .posts-container .post .title {
+	font-size: 2rem;}
 
 /* Page: Posts */
 .page-post .header {
