@@ -44,7 +44,8 @@
 .page-post .header {
 	padding: 3rem 2rem;
 	padding-top: 10rem;
-	background-size: inherit;}
+	background-size: cover;
+	background-position-y: inherit;}
 .page-post .header h1.title {
 	font-size: 4.5rem;
 	margin: auto 0;

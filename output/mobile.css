@@ -42,7 +42,10 @@
 
 /* Page: Posts */
 .page-post .header {
-	padding: 6rem 2rem 10rem;}
+	padding: 3rem 2rem;
+	padding-top: 10rem;
+	background-size: cover;
+	background-position-y: inherit;}
 .page-post .header h1.title {
 	font-size: 4.5rem;
 	margin: auto 0;
