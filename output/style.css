@@ -218,6 +218,8 @@
     border: solid white .1rem;
     padding: 3rem 0rem;
     margin: 3rem 50rem 4rem;}
+.page-post .footer .social img#feedlyFollow {
+    margin-top: -2rem;}
 .page-post .footer .social .text{
     font-size: 2rem;
     font-family: 'Poppins';
