@@ -106,7 +106,7 @@
 .page-about .container2 .aboutme {
     font-family: 'Poppins';
     width: 500px;
-    font-size: 1.4rem;}
+    font-size: 1.7rem;}
 .page-about .container2 .aboutme .aboutme-subsections {
     text-decoration: underline;
     font-family: 'Poppins';}
@@ -139,7 +139,7 @@
     height: 30rem;
     padding: 6rem 2rem;}
 .page-blog .posts-container .post .title {
-    font-size: 3rem;
+    font-size: 2.5rem;
     text-align: center;
     padding: 1rem 0rem;
     color: white;

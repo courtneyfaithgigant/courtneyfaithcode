@@ -1,10 +1,17 @@
-
-        <?xml version="1.0"?>
+<?xml version="1.0"?>
         <rss version="2.0">
             <channel>
                 <title>Courtney Faith</title>
                 <link>http://courtneyfaith.com/</link>
-                <description>Courtney Faith</description>
+                <description>A space to reconnect and love yourself</description>
+
+                <image>
+                    <url>http://courtneyfaith.com/Lotus-2.jpg</url>
+                    <title>Courtney Faith</title>
+                    <link>http://courtneyfaith.com/</link>
+                    <description>A space to reconnect and love yourself</description>
+                </image>
+
                 
                     <item>
                        <title>When, Why And How To Set Boundaries</title>
@@ -34,7 +41,7 @@
 
 
 	
-		Let&apos;s talk about taboos. You and me&mdash; let&apos;s authentically and freely explore the depths of taboos together. I am not talking about the woman who never wears a bra to the office o...</description>
+		Lets talk about taboos. You and me lets authentically and freely explore the depths of taboos together. I am not talking about the woman who never wears a bra to the office or your sort-of frie...</description>
                     </item>
                 
                     <item>
