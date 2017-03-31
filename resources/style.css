@@ -134,7 +134,7 @@
     width: 30rem;
     height: 30rem;
     padding: 6rem 2rem;
-    margin: 2rem;}
+    margin: 2rem;cf}
 .page-blog .posts-container .post .title {
     font-size: 2.5rem;
     text-align: center;
@@ -146,14 +146,15 @@
 /**
  * ALL DA BLOG POSTS
  */
-
+.page-post-how-to-change-manipulative-patterns-and-forgive-yourself .header {
+    background: url(cage.jpg);}
 .page-post-top-23-songs-to-reclaim-your-day .header {
     background: url(hippies_dancing.jpg);
     background-position-y: -10rem;}
 .page-post-7-considerations-before-changing-your-life .header {
    background: url(littlegirl1.jpg);
    background-position-y: -15rem;}
-.page-post-when-why-and-how-to-set-boundaries .header {
+.page-post-how-to-set-boundaries-101 .header {
     background: url(stop.jpg);
     background-position-y: -22rem;}
 .page-post-my-path-to-eating-disorder-recovery .header {
