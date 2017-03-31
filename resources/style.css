@@ -83,21 +83,16 @@
 
 /* About Me - Photo & Social Media Buttons */
 .page-about .container2 {
-    display: inline-flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    width: 100%;
-    margin-top: 50px;}
+    width: 60%;
+    margin: 4rem auto;}
 .page-about .container2 .headshot-icons {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    float: left;
     margin-right: 50px;}
 .page-about .container2 img.headshot {
     margin-top: 0px;
     border-radius: 2%;
     height: 30rem;
-    margin-bottom: 10px;}
+    margin-bottom: 1.5rem;}
 .page-about .container2 .social-media img {
     height: 40px;
     margin-bottom: 10px;}
@@ -105,15 +100,16 @@
 /* About Me - Content Bio */
 .page-about .container2 .aboutme {
     font-family: 'Poppins';
-    width: 500px;
     font-size: 1.7rem;}
 .page-about .container2 .aboutme .aboutme-subsections {
-    text-decoration: underline;
-    font-family: 'Poppins';}
+/*    text-decoration: underline;*/
+    font-family: 'Poppins';
+    font-size: 2rem;}
 .page-about .container2 .aboutme .aboutme-intro {
     font-weight: bold;
     font-size: 3rem;
-    font-family: 'Poppins';}
+    font-family: 'Poppins';
+    margin-top: 5rem;}
 
 
 /**
@@ -137,7 +133,8 @@
     font-weight: bold;
     width: 30rem;
     height: 30rem;
-    padding: 6rem 2rem;}
+    padding: 6rem 2rem;
+    margin: 2rem;}
 .page-blog .posts-container .post .title {
     font-size: 2.5rem;
     text-align: center;
