@@ -45,7 +45,7 @@
 
         <div class="posts-container">
         {{ range .Posts }}
-            <div class="post" style="background: url({{ .ListImage }}); background-size: cover;" />
+            <div class="post post-{{ .SafeTitle }}" style="background: url({{ .ListImage }}); background-size: cover;" />
                 <span class="date" style="font-size: 1.5rem; color: #777">{{ .Date }}</span>
                 <br/>
                 <br/>
