@@ -146,8 +146,10 @@
 /**
  * ALL DA BLOG POSTS
  */
+.page-post-how-to-care-for-yourself-when-your-brain-might-explode .header {
+    background: url(flower.jpg);}
 .page-post-top-7-ways-to-cultivate-fulfilling-relationships .header {
-    background: url(meerkat.jpg);}
+    background: url(meerkat2.jpg);}
 .page-post-how-to-change-manipulative-patterns-and-forgive-abusers .header {
     background: url(cage.jpg);}
 .page-post-top-23-songs-to-reclaim-your-day .header {
@@ -156,7 +158,7 @@
 .page-post-7-considerations-before-changing-your-life .header {
    background: url(littlegirl1.jpg);
    background-position-y: -15rem;}
-.page-post-how-to-set-boundaries-101 .header {
+.page-post-how-to-set-boundaries-throughout-your-life .header {
     background: url(stop.jpg);
     background-position-y: -22rem;}
 .page-post-my-path-to-eating-disorder-recovery .header {
