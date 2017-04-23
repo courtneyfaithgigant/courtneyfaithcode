@@ -146,6 +146,10 @@
 /**
  * ALL DA BLOG POSTS
  */
+
+.page-post-coming-back-to-my-purpose-and-intention .header {
+    background: url(rain.jpg);
+    background-position-y: -15rem;}
 .page-post-how-to-care-for-yourself-when-your-brain-might-explode .header {
     background: url(flower.jpg);}
 .page-post-top-7-ways-to-cultivate-fulfilling-relationships .header {
